@@ -1061,3 +1061,37 @@ git log --oneline
 4. Run git commit to save a new version.
 5. Run git log --oneline to review saved versions.
 
+
+# Git Workflow
+
+## git status
+Displays the current state of the working directory.
+
+Example:
+git status
+
+## git add
+Stages changes for the next commit.
+
+Example:
+git add 01-basics/commands.md
+
+## git commit
+Saves staged changes in the repository history.
+
+Example:
+git commit -m "Update Linux command journal"
+
+## git log
+Displays the commit history.
+
+Example:
+git log --oneline
+
+## Basic Git Workflow
+1. Edit or create files.
+2. Run git status to inspect changes.
+3. Run git add to stage the changes.
+4. Run git commit to save a new version.
+5. Run git log --oneline to review saved versions.
+
