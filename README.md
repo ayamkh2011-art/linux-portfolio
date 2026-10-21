@@ -1,36 +1,43 @@
 # My Linux Learning Portfolio
 
 ## About This Project
-This repository documents my journey learning Linux, practicing system administration basics, and developing Bash scripting skills.
+This repository documents my Linux learning journey, system administration practice, and Bash scripting projects.
 
 ## Environment
-- Operating system: Ubuntu on WSL
-- Shell: Bash
+- Ubuntu on WSL
+- Bash
+- Git and GitHub
 
 ## Skills Practiced
-- Navigating the Linux filesystem
-- Managing files and directories
-- Searching for files and text
-- Inspecting file information and permissions
-- Managing processes
-- Learning package management with APT
-- Using pipes and redirection
-- Practicing networking commands
-- Writing Bash scripts
+- Files and directories
+- File permissions and ownership
+- Process management
+- Package management with APT
+- Pipes and redirection
+- Networking basics
+- Bash scripting
+- Version control with Git
 
 ## Projects
 
 ### 1. Linux Command Journal
-A collection of Linux commands, examples, and practical exercises.
+A collection of Linux commands and practical examples.
 
 [Open the command journal](01-basics/commands.md)
 
 ### 2. System Information Report
-A Bash script that displays basic system information, including the current user, hostname, kernel version, disk usage, and memory usage.
+A script that displays basic system information.
 
-[Project instructions](02-projects/system-info/README.md)
+[Project README](02-projects/system-info/README.md)
 
-[View the Bash script](02-projects/system-info/system_info.sh)
+[View system_info.sh](02-projects/system-info/system_info.sh)
+
+### 3. Automatic Backup Script
+A script that creates compressed backups of directories.
+
+[Project README](02-projects/backup-script/README.md)
+
+[View backup.sh](02-projects/backup-script/backup.sh)
 
 ## Screenshot
 ![Project structure](screenshots/01-project-structure.png)
